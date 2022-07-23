@@ -1,0 +1,5 @@
+# 백준 2752 : 세 수 오름차순 정렬
+
+List = list(map(int, input().split()))
+List.sort()
+print(*List)
